@@ -21,10 +21,13 @@ body {
 .logo {
     width: 50%;
     max-width: 300px;
-    margin: 5rem;
-    margin-bottom: 18rem;
-    background: rgba(255, 255, 255, 0.369);
+    margin: 3rem;
+    background: rgba(255, 255, 255, 0.69);
     border-radius: 5%;
+}
+
+.navBtn {
+    margin-top: 30vh;
 }
 
 .navBtn>div {

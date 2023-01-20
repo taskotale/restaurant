@@ -5,3 +5,4 @@ import footer from './socialBtn';
 
 document.body.appendChild(landingPage())
 document.body.appendChild(footer())
+
