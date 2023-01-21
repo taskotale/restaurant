@@ -1,7 +1,7 @@
 import './styles.css';
 import landingPage from './createHome.js';
 import main from './createMainBones';
-import menuPage from './menu';
+import menuPage from './menuPage';
 
 
 document.body.appendChild(main())
