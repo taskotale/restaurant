@@ -12,7 +12,7 @@ const landingPage = () => {
     navBtn.appendChild(navBtnMenu);
 
     const navBtnAbout = document.createElement('div');
-    navBtnAbout.textContent = 'ABOUT US';
+    navBtnAbout.textContent = 'OUR STORY';
     navBtnAbout.id = 'aboutBtn'
 
     navBtn.appendChild(navBtnAbout);

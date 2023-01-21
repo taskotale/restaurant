@@ -6,16 +6,16 @@
 body {
     padding: 0;
     margin: 0;
-    height: 100vh;
     box-sizing: border-box;
+    height: 100vh;
 }
 
 .logo {
-    position: absolute;
+    position: fixed;
     top: 3rem;
     left: 0;
     right: 0;
-    height: 200px;
+    height: 10rem;
     max-width: 300px;
     margin: auto;
     background: rgba(255, 255, 255, 0.69);
@@ -23,7 +23,7 @@ body {
 }
 
 .social-media-btn {
-    position: absolute;
+    position: fixed;
     bottom: 1rem;
     width: 100%;
     text-align: center;
@@ -42,12 +42,14 @@ body {
 .home {
     background: url(./img/309092368_625932192248030_1597929384017726165_n.jpg);
 }
+
 .menu {
     background: url(./img/old-wall-antique-white-beige-mediterranean-painted-plain-225539680.png);
+    background-attachment: fixed;
 }
 
 .page {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,4 +70,31 @@ body {
     font-family: 'Hand';
     font-size: 2rem;
     border-radius: 5%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 10rem;
+    height: 60%;
+    overflow: scroll;
+    list-style-type: none;
+}
+
+li {
+    font-family: 'Hand';
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+li>img {
+    height: 10rem;
+    border-radius: 5%;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }

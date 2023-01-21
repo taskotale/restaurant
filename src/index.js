@@ -9,8 +9,11 @@ document.body.appendChild(landingPage())
 
 const menuBtn = document.getElementById('menuBtn')
 const aboutBtn = document.getElementById('aboutBtn')
+const logo = document.getElementById('logo')
 
-menuBtn.addEventListener('click', () => {
+logo.addEventListener('click', ()=>window.location.reload())
+
+menuBtn.addEventListener('click', (e) => {
     document.body.removeChild(document.body.lastElementChild);
     document.body.appendChild(menuPage());
 })

@@ -2,7 +2,6 @@ import fbIcon from './img/facebook-f.svg';
 import igIcon from './img/instagram.svg';
 import mainLogo from './img/logo.png';
 
-
 const main = () => {
 
     const mainLayout = document.createElement('div')
@@ -10,6 +9,7 @@ const main = () => {
 
     const logo = new Image();
     logo.src = mainLogo;
+    logo.id = 'logo'
     logo.classList.add('logo');
     document.body.appendChild(logo);
 
