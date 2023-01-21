@@ -3,6 +3,7 @@ import mainLogo from './img/logo.png';
 const landingPage = () => {
     const homePage = document.createElement('div');
     homePage.classList.add('homepage');
+    homePage.id= 'homepage';
     
     const logo = new Image();
     logo.src = mainLogo;
