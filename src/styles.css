@@ -10,44 +10,23 @@ body {
     box-sizing: border-box;
 }
 
-.homepage {
-    height: 100vh;
-    width: 100%;
-    background: url(./img/309092368_625932192248030_1597929384017726165_n.jpg);
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    overflow: hidden;
-}
-
 .logo {
-    width: 50%;
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    right: 0;
+    height: 200px;
     max-width: 300px;
-    margin: 3rem;
+    margin: auto;
     background: rgba(255, 255, 255, 0.69);
-    border-radius: 5%;
-}
-.navBtn {
-    margin-bottom: 10rem;
-}
-
-.navBtn>div {
-    text-align: center;
-    padding: 0.5rem;
-    margin: 1rem;
-    background: rgba(255, 255, 255, 0.69);
-    font-family: 'Hand';
-    font-size: 2rem;
     border-radius: 5%;
 }
 
 .social-media-btn {
     position: absolute;
-    bottom: 0;
+    bottom: 1rem;
     width: 100%;
-    text-align: center; 
+    text-align: center;
 }
 
 .fbBtn,
@@ -58,4 +37,35 @@ body {
     background: rgba(255, 255, 255, 0.962);
     padding: 1rem;
     border-radius: 50%;
+}
+
+.home {
+    background: url(./img/309092368_625932192248030_1597929384017726165_n.jpg);
+}
+.menu {
+    background: url(./img/old-wall-antique-white-beige-mediterranean-painted-plain-225539680.png);
+}
+
+.page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.navBtn {
+    margin-top: 20rem;
+}
+
+.navBtn>div {
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    background: rgba(255, 255, 255, 0.69);
+    font-family: 'Hand';
+    font-size: 2rem;
+    border-radius: 5%;
 }

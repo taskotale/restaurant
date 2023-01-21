@@ -1,14 +1,7 @@
-import mainLogo from './img/logo.png';
-
 const landingPage = () => {
     const homePage = document.createElement('div');
-    homePage.classList.add('homepage');
+    homePage.classList.add('home','page');
     homePage.id= 'homepage';
-    
-    const logo = new Image();
-    logo.src = mainLogo;
-    logo.classList.add('logo');
-    homePage.appendChild(logo);
 
     const navBtn = document.createElement('div');
     navBtn.classList.add('navBtn')
