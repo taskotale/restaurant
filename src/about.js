@@ -12,11 +12,12 @@ const aboutPage = () => {
     const para4 = document.createElement('p')
     const para5 = document.createElement('p')
 
-    para.textContent = 'First authentic restaurant specialized for traditional cuisine in Montenegro. Owned by the Bećović family';
-    para2.textContent = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro modi beatae sapiente architecto.';
-    para3.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vel nam libero. Rem ex hic numquam laborum est omnis explicabo expedita reiciendis.';
-    para4.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vel nam libero. Rem ex hic numquam laborum est omnis explicabo expedita reiciendis.';
-    para5.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vel nam libero. Rem ex hic numquam laborum est omnis explicabo expedita reiciendis.';
+    para.textContent = 'First authentic restaurant specialized for traditional cuisine in Montenegro. Owned by the Bećović family'.toUpperCase();
+    para2.textContent = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro modi beatae sapiente architecto.'.toUpperCase();
+    para3.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vel nam libero. Rem ex hic numquam laborum est omnis explicabo expedita reiciendis.'.toUpperCase();
+    para4.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vel nam libero. Rem ex hic numquam laborum est omnis explicabo expedita reiciendis.'.toUpperCase();
+    para5.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vel nam libero. Rem ex hic numquam laborum est omnis explicabo expedita reiciendis.'.toUpperCase();
+
 
     textContent.appendChild(para);
     textContent.appendChild(para2);
