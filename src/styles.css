@@ -10,6 +10,11 @@ body {
     height: 100vh;
 }
 
+p {
+    padding: 0;
+    margin: 0;
+}
+
 .logo {
     position: fixed;
     top: 3rem;
@@ -44,6 +49,11 @@ body {
 }
 
 .menu {
+    background: url(./img/old-wall-antique-white-beige-mediterranean-painted-plain-225539680.png);
+    background-attachment: fixed;
+}
+
+.about {
     background: url(./img/old-wall-antique-white-beige-mediterranean-painted-plain-225539680.png);
     background-attachment: fixed;
 }
@@ -97,4 +107,35 @@ li>img {
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+
+.text-content {
+    font-family: 'Hand';
+    font-size: 2.3rem;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 5rem;
+    height: 50%;
+    width: 60%;
+    color: hsl(0, 0%, 100%);
+    text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.588);
+    /* text-shadow: 0 0 1px hsl(20, 100%, 18%),
+             -1px 1px 0 hsl(20, 100%, 16%), 
+             -2px 2px 2px -1px hsl(20, 100%, 14%), 
+             -4px 4px 2px -2px hsl(20, 100%, 12%),
+             -6px 6px 3px -3px hsl(20, 100%, 10%),
+             -8px 8px 2px -4px hsl(20, 100%, 9%),
+             -10px 10px 3px -5px hsl(20, 100%, 8%),
+             -12px 12px 2px -6px hsl(20, 100%, 7%),
+             -14px 14px 2px -7px hsl(20, 100%, 6%),
+             -15px 15px 2px -8px hsl(20, 100%, 5%), 
+             -15px 15px 0 -8px hsla(20, 50%, 10%, 0.25); */
+    letter-spacing: 3px;
+    overflow: scroll;
+}
+
+.text-content>p {
+    margin-bottom: 2rem;
+    
 }
